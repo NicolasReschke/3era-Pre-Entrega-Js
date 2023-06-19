@@ -103,11 +103,12 @@ h1{
 /* ============== footer ============== */
 }
 
-.menu2 {
-    flex-direction: column;
-    list-style: none;
-    align-items: center;
-    li{
-        padding: 5px 5px;
+    .menu2 {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        align-items: center;
+        li{
+            padding: 5px 5px;
+        }
     }
-}

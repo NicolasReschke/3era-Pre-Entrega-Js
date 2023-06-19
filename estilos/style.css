@@ -157,15 +157,6 @@ body.dark .productos .textoProductos {
   display: none;
 }
 
-.menu2 {
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
-.menu2 li {
-  padding: 0 5px;
-}
-
 /* 
 font-family: 'Merriweather Sans', sans-serif;
 font-family: 'Open Sans', sans-serif;
@@ -498,7 +489,8 @@ body.dark .footerContainer .grupo1 .cajaFooter .parrafoFooter {
   /* ============== footer ============== */
 }
 .menu2 {
-  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   align-items: center;
 }
