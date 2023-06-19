@@ -1,0 +1,89 @@
+.topheader{
+    box-shadow: 0 4px 5px $navbar-shallow-color;
+    position: fixed;
+    background-color: $theme-color;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: .8s ease all;
+    body.dark & {
+        background-color: $theme-color2;
+    }
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+// Logo
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: 18px;
+    font-weight: 500;
+    color: $primary-color;
+    body.dark & {
+        color: $switch-primary-color;
+    }
+    img, div{
+        padding: 0 10px;
+        width: 90px;
+    }
+}
+
+// Menu
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li{
+        padding: 0 15px;
+        a{
+            position: relative;
+            color: $text-color;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 50px;
+            text-transform: uppercase;
+            body.dark & {
+                color: $text-color-inverse;
+            }
+        }
+        &hover{
+            color: $primary-color;
+        }
+    }
+}
+
+.open-menu, .close-menu, .close-menu-social{
+    display: none;
+}
+
+.menu a::after{
+    content: "";
+    background-color: $secondary-color;
+    position: absolute;
+    left: 0;
+    top: calc(100% + 4px);
+    width: 100%;
+    height: 4px;
+
+    opacity: 0;
+}
+
+.menu a.selected::after,
+.menu a:hover::after{
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.menu a:hover{
+    color: $primary-color;
+}

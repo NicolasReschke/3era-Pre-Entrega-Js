@@ -1,0 +1,111 @@
+// 768px
+@media (max-width: 768px){
+
+    /* ============== Menu ============== */
+    .menu{
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        background-color: $menu-mobile-background-color;
+        color: $text-color-inverse;
+        height: 100%;
+        overflow-y: auto;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s;
+        .li-switch{
+            margin: 40px 0;
+        }
+        li{
+            padding: 0;
+            a{
+                color: $text-color-inverse;
+                line-height: 70px;
+                font-size: 25px;
+            }
+        }
+    }
+
+    .open-menu, .close-menu, .close-menu-social{
+        display: block;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+
+    .close-menu{
+        align-self: flex-end;
+        padding: 20px 25px;
+    }
+    .open-menu{
+        padding: 0 15px;
+    }
+    .menu_opened{
+        opacity: 1;
+        pointer-events: all;
+    }
+
+
+    .menu a::after{
+        content: none;
+    }
+    .menu a:hover,
+    .menu a.selected{
+        color: $secondary-color;
+    }
+    
+    .menu a:hover{
+        color: $secondary-color;
+    }
+/* ============== Menu ============== */
+
+/* ============== Index ============== */
+h1{
+    font-size: 40px;
+}
+
+.entradas{
+    flex-wrap: wrap;
+    justify-content: center;
+    .imagenEntradas{
+        img{
+            max-width: 370px;
+        }
+    }
+    .textoEntradas{
+        padding: 5px;
+        flex-wrap: wrap;
+    }
+}
+/* ============== Index ============== */
+
+
+/* ============== Prestamo/ValorFinal ============== */
+/* .relleno {
+    margin: 50px auto;
+} */
+/* ============== Prestamo/ValorFinal ============== */
+
+
+/* ============== footer ============== */
+.footerContainer{
+    .grupo1{
+        width: 90%;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding: 35px 0px;
+        text-align: center;
+        h5{
+            text-align: center;
+        }
+        .parrafoFooter{
+            text-align: center;
+        }
+    }
+}
+/* ============== footer ============== */
+}

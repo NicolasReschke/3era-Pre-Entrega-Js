@@ -1,0 +1,56 @@
+[
+    {
+        "id": "entrada1",
+        "titulo": "Campo Delantero",
+        "precio": 75000,
+        "img": "./img/entrada1.png"
+    },
+    {
+        "id": "entrada2",
+        "titulo": "Campo Trasero",
+        "precio": 40000,
+        "img": "./img/entrada2.png"
+    },
+    {
+        "id": "entrada3",
+        "titulo": "Platea Preferencial",
+        "precio": 85000,
+        "img": "./img/entrada3.png"
+    },
+    {
+        "id": "entrada4",
+        "titulo": "Platea Preferencial Lateral",
+        "precio": 75000,
+        "img": "./img/entrada4.png"
+    },
+    {
+        "id": "entrada5",
+        "titulo": "Platea Alta",
+        "precio": 45000,
+        "img": "./img/entrada5.png"
+    },
+    {
+        "id": "entrada6",
+        "titulo": "Sivori Media",
+        "precio": 50000,
+        "img": "./img/entrada6.png"
+    },
+    {
+        "id": "entrada7",
+        "titulo": "Sivori Alta",
+        "precio": 30000,
+        "img": "./img/entrada7.png"
+    },
+    {
+        "id": "entrada8",
+        "titulo": "Centenario Media Visión Restringida",
+        "precio": 19000,
+        "img": "./img/entrada8.png"
+    },
+    {
+        "id": "entrada9",
+        "titulo": "Centenario Alta Visión Restringida",
+        "precio": 16000,
+        "img": "./img/entrada9.png"
+    }
+]
