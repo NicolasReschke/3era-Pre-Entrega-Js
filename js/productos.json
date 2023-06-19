@@ -1,0 +1,114 @@
+[
+    {
+        "id": "branca01",
+        "titulo": "Fernet Branca botella 750 cc.",
+        "marca": "branca",
+        "precio": 2635,
+        "img": "https://carrefourar.vtexassets.com/arquivos/ids/226772-240-240?v=1773589739&width=240&height=240&aspect=true",
+        "categoria": "bebidas"
+    },
+    {
+        "id": "branca02",
+        "titulo": "Fernet Branca botella 450 cc.",
+        "marca": "branca",
+        "precio": 1703,
+        "img": "https://carrefourar.vtexassets.com/arquivos/ids/226758-240-240?v=1773594048&width=240&height=240&aspect=true",
+        "categoria": "bebidas"
+    },
+    {
+        "id": "branca03",
+        "titulo": "Fernet Branca menta botella 750 cc.",
+        "marca": "branca",
+        "precio": 2635,
+        "img": "https://carrefourar.vtexassets.com/arquivos/ids/226763-240-240?v=1773587157&width=240&height=240&aspect=true",
+        "categoria": "bebidas"
+    },
+    {
+        "id": "speed01",
+        "titulo": "Speed Bebida energizante 473ml",
+        "marca": "speed",
+        "precio": 342,
+        "img": "https://carrefourar.vtexassets.com/arquivos/ids/268976-240-240?v=638074041961730000&width=240&height=240&aspect=true",
+        "categoria": "bebidas"
+    },
+    {
+        "id": "speed02",
+        "titulo": "Speed Bebida energizante 269ml",
+        "marca": "speed",
+        "precio": 256,
+        "img": "https://carrefourar.vtexassets.com/arquivos/ids/268977-240-240?v=638074041970130000&width=240&height=240&aspect=true",
+        "categoria": "bebidas"
+    },
+    {
+        "id": "laProvidencia01",
+        "titulo": "Galletitas crackers La Providencia 303 gr.",
+        "marca": "laProvidencia",
+        "precio": 257.50,
+        "img": "https://carrefourar.vtexassets.com/arquivos/ids/176486-1200-auto?v=637468573589130000&width=1200&height=auto&aspect=true",
+        "categoria": "desayunoYMerienda"
+    },
+    {
+        "id": "laProvidencia02",
+        "titulo": "Galletitas de salvado La Providencia 600 gr.",
+        "marca": "laProvidencia",
+        "precio": 450,
+        "img": "https://carrefourar.vtexassets.com/arquivos/ids/176502-1200-auto?v=637468573623570000&width=1200&height=auto&aspect=true",
+        "categoria": "desayunoYMerienda"
+    },
+    {
+        "id": "playadito01",
+        "titulo": "Yerba mate Playadito suave con palo 1 kg.",
+        "marca": "playadito",
+        "precio": 1340,
+        "img": "https://carrefourar.vtexassets.com/arquivos/ids/207097-1200-auto?v=637623985987930000&width=1200&height=auto&aspect=true",
+        "categoria": "desayunoYMerienda"
+    },
+    {
+        "id": "playadito02",
+        "titulo": "Yerba mate Playadito suave con palo 500 gr.",
+        "marca": "playadito",
+        "precio": 656,
+        "img": "https://carrefourar.vtexassets.com/arquivos/ids/183938-1200-auto?v=637468591687430000&width=1200&height=auto&aspect=true",
+        "categoria": "desayunoYMerienda"
+    },
+    {
+        "id": "pureza01",
+        "titulo": "Harina Pureza especial para pizzas 1 kg.",
+        "marca": "pureza",
+        "precio": 331.51,
+        "img": "https://carrefourar.vtexassets.com/arquivos/ids/196960-1200-auto?v=637523690704230000&width=1200&height=auto&aspect=true",
+        "categoria": "almacen"
+    },
+    {
+        "id": "pureza02",
+        "titulo": "Harina de trigo 0000 ultrarefinada Pureza 1 kg.",
+        "marca": "pureza",
+        "precio": 216.11,
+        "img": "https://carrefourar.vtexassets.com/arquivos/ids/205215-1200-auto?v=637601556417500000&width=1200&height=auto&aspect=true",
+        "categoria": "almacen"
+    },
+    {
+        "id": "rexona01",
+        "titulo": "Antitranspirante Rexona men fanáticos aero 150 cc.",
+        "marca": "rexona",
+        "precio": 612,
+        "img": "https://carrefourar.vtexassets.com/arquivos/ids/249600-1200-auto?v=637921206982100000&width=1200&height=auto&aspect=true",
+        "categoria": "perfumeria"
+    },
+    {
+        "id": "rexona02",
+        "titulo": "Antitranspirante Rexona active emotion aerosol 150 cc.",
+        "marca": "rexona",
+        "precio": 565,
+        "img": "https://carrefourar.vtexassets.com/arquivos/ids/298484-1200-auto?v=638131287525930000&width=1200&height=auto&aspect=true",
+        "categoria": "perfumeria"
+    },
+    {
+        "id": "rexona03",
+        "titulo": "Antitranspirante en crema Rexona odorono 60 g.",
+        "marca": "rexona",
+        "precio": 309,
+        "img": "https://carrefourar.vtexassets.com/arquivos/ids/309345-1200-auto?v=638150911466030000&width=1200&height=auto&aspect=true",
+        "categoria": "perfumeria"
+    }
+]

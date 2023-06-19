@@ -68,15 +68,15 @@ h1{
     font-size: 40px;
 }
 
-.entradas{
+.productos{
     flex-wrap: wrap;
     justify-content: center;
-    .imagenEntradas{
+    .imagenProductos{
         img{
             max-width: 370px;
         }
     }
-    .textoEntradas{
+    .textoProductos{
         padding: 5px;
         flex-wrap: wrap;
     }
