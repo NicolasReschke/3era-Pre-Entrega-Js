@@ -84,13 +84,6 @@ h1{
 /* ============== Index ============== */
 
 
-/* ============== Prestamo/ValorFinal ============== */
-/* .relleno {
-    margin: 50px auto;
-} */
-/* ============== Prestamo/ValorFinal ============== */
-
-
 /* ============== footer ============== */
 .footerContainer{
     .grupo1{
@@ -108,4 +101,13 @@ h1{
     }
 }
 /* ============== footer ============== */
+}
+
+.menu2 {
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    li{
+        padding: 5px 5px;
+    }
 }

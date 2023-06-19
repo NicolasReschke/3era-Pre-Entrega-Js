@@ -158,20 +158,11 @@
     display: none;
 }
 
-aside {
-    padding: 2rem;
-    padding-right: 0;
-    color: var(--clr-white);
-    position: sticky;
-    top: 0;
-    //height: 100vh;
+.menu2 {
+    list-style: none;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.aside-visible {
-    transform: translateX(0);
-    opacity: 1;
-    visibility: visible;
+    align-items: center;
+    li{
+        padding: 0 5px;
+    }
 }

@@ -157,21 +157,13 @@ body.dark .productos .textoProductos {
   display: none;
 }
 
-aside {
-  padding: 2rem;
-  padding-right: 0;
-  color: var(--clr-white);
-  position: sticky;
-  top: 0;
+.menu2 {
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
 }
-
-.aside-visible {
-  transform: translateX(0);
-  opacity: 1;
-  visibility: visible;
+.menu2 li {
+  padding: 0 5px;
 }
 
 /* 
@@ -489,11 +481,6 @@ body.dark .footerContainer .grupo1 .cajaFooter .parrafoFooter {
     flex-wrap: wrap;
   }
   /* ============== Index ============== */
-  /* ============== Prestamo/ValorFinal ============== */
-  /* .relleno {
-      margin: 50px auto;
-  } */
-  /* ============== Prestamo/ValorFinal ============== */
   /* ============== footer ============== */
   .footerContainer .grupo1 {
     width: 90%;
@@ -509,4 +496,12 @@ body.dark .footerContainer .grupo1 .cajaFooter .parrafoFooter {
     text-align: center;
   }
   /* ============== footer ============== */
+}
+.menu2 {
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+}
+.menu2 li {
+  padding: 5px 5px;
 }/*# sourceMappingURL=style.css.map */
